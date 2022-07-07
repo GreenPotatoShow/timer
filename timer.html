@@ -5,7 +5,19 @@
     </head>
     <body>
         <h1>Таймер</h1>
-        <input type="button" onclick="go()" value="Go"/>
+        <p>
+            <input autocomplete="on" min="0" max="59" placeholder="10" value="00" maxlength="2" size="3" type="number" id="second">
+            <span>секунд</span>   
+            
+            <input autocomplete="on" min="0" max="59" placeholder="30" value="00" maxlength="2" size="3" type="number" id="minute">
+            <span>минут</span>    
+            
+            <input autocomplete="on" min="0" max="23" placeholder="00" value="00" maxlength="2" size="3" type="number" id="hour">
+            <span>часов</span>   
+        </p>
+        <p>
+        <input type="button" value="Таймер" id="start">
+        </p>
         <script src="js/script.js"></script>
     </body>
 </html>
