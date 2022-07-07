@@ -11,12 +11,19 @@
             
             <input autocomplete="on" min="0" max="59" placeholder="30" value="00" maxlength="2" size="3" type="number" id="minute">
             <span>минут</span>    
-            
+
             <input autocomplete="on" min="0" max="23" placeholder="00" value="00" maxlength="2" size="3" type="number" id="hour">
             <span>часов</span>   
         </p>
         <p>
         <input type="button" value="Таймер" id="start">
+        <input type="button" value="Стоп" id="stopped">
+        </p>
+        <p>
+            <input checked type="radio" name="sound" value="Время вышло" id="sound1">Время вышло
+        </p>
+        <p>
+            <input type="radio" name="sound" value="Будильник" id="sound2">Будильник
         </p>
         <script src="js/script.js"></script>
     </body>
