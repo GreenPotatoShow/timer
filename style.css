@@ -1,7 +1,62 @@
 h1{
     font-size: 50px;
     font-family: Impact, fantasy;
+    color: #180F05;
 }
 span{
     margin-right: 20px;
+    font-family: 'Segoe UI light', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+.option{
+    margin-left: 5px;
+}
+body{
+    margin-top: 20px;
+    background-image: url(js/pictures/background.jpg);
+    margin-left: 50px;
+}
+.inputText{
+    padding:2px;
+    background-color:#BFA386;
+    border-radius: 7px;
+    border:2px solid #BFA386;
+    font-weight: bold;
+}
+.inputButton{
+    padding:10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color:#180F05;
+    border:2px solid #180F05;
+    color:#BFA386;
+    font-family: Courier New, monospace;
+    font-weight: bold;
+    font-size: 20pt;
+}
+input[type='radio']:after {
+    background-color:#6697A7;
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    border-radius: 15px;
+    content: '';
+    display: inline-block;
+    border: 2px solid #000000;
+}
+input[type='radio']:checked:after {
+    background-color: #0C2933;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    border: 2px solid #000000;
 }

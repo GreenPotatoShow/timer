@@ -14,7 +14,7 @@
         return;
     }
     time=hour*3600+min*60+sec;
-    setTimeout(()=>document.body.style.background='red',1000*time);
+    setTimeout(()=>document.body.style.backgroundImage="url('js/pictures/background2.jpg')",1000*time);
     setTimeout(()=>sound(audio),1000*time);
 }
 
