@@ -5,28 +5,28 @@
     </head>
     <body>
         <h1>Таймер</h1>
-        <p>
-            <input autocomplete="on" min="0" max="59" placeholder="10" value="00" maxlength="2" size="3" type="number" id="second" class="inputText">
+        <div>
+            <input autocomplete="on" min="0" max="59" placeholder="10" value="00" maxlength="2" size="3" type="number" id="second" class="input-text">
             <span>секунд</span>   
             
-            <input autocomplete="on" min="0" max="59" placeholder="30" value="00" maxlength="2" size="3" type="number" id="minute" class="inputText">
+            <input autocomplete="on" min="0" max="59" placeholder="30" value="00" maxlength="2" size="3" type="number" id="minute" class="input-text">
             <span>минут</span>    
 
-            <input autocomplete="on" min="0" max="23" placeholder="00" value="00" maxlength="2" size="3" type="number" id="hour" class="inputText">
+            <input autocomplete="on" min="0" max="23" placeholder="00" value="00" maxlength="2" size="3" type="number" id="hour" class="input-text">
             <span>часов</span>   
-        </p>
-        <p>
-        <input type="button" value="старт" id="start" class="inputButton">
-        <input type="button" value="стоп" id="stopped" class="inputButton">
-        </p>
-        <p>
+        </div>
+        <div>
+        <button id="start" class="input-button">старт</button>
+        <button id="stopped" class="input-button">стоп</button>
+        </div>
+        <div>
             <input checked type="radio" name="sound" value="Время вышло" id="sound1">
             <span class="option">Время вышло</span>
-        </p>
-        <p>
+        </div>
+        <div>
             <input type="radio" name="sound" value="Будильник" id="sound2">
             <span class="option">Будильник</span>
-        </p>
+        </div>
         <script src="js/script.js"></script>
     </body>
 </html>

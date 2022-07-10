@@ -17,27 +17,27 @@ body{
     background-image: url(js/pictures/background.jpg);
     margin-left: 50px;
 }
-.inputText{
-    padding:2px;
-    background-color:#BFA386;
+.input-text{
+    padding: 2px;
+    background-color: #BFA386;
     border-radius: 7px;
-    border:2px solid #BFA386;
+    border: 2px solid #BFA386;
     font-weight: bold;
 }
-.inputButton{
-    padding:10px;
+.input-button{
+    padding: 10px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 20px;
-    background-color:#180F05;
-    border:2px solid #180F05;
-    color:#BFA386;
+    background-color: #180F05;
+    border: 2px solid #180F05;
+    color: #BFA386;
     font-family: Courier New, monospace;
     font-weight: bold;
     font-size: 20pt;
 }
 input[type='radio']:after {
-    background-color:#6697A7;
+    background-color: #6697A7;
     width: 15px;
     height: 15px;
     top: -2px;
