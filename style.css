@@ -60,3 +60,6 @@ input[type='radio']:checked:after {
     display: inline-block;
     border: 2px solid #000000;
 }
+.show{
+    margin-right: 10px;
+}
