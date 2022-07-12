@@ -9,6 +9,10 @@
     sec = +document.getElementById("second").value;
     min = +document.getElementById("minute").value;
     hour = +document.getElementById("hour").value;
+    if (!checkCorrect(sec) || !checkCorrect(min) || !checkCorrect(hour)){
+        alert("Некорpектные значения. Попробуйте ещё раз");
+        return;
+    }
     showHourCur.innerHTML = hour;
     showMinCur.innerHTML = min;
     showSecCur.innerHTML = sec;
@@ -17,10 +21,6 @@
     document.body.append(showMinCur);
     document.body.append(cln2); //я не знаю, как по-другому поставить второе двоеточие, тогда исчезает первое
     document.body.append(showSecCur);
-    if (!checkCorrect(sec) || !checkCorrect(min) || !checkCorrect(sec)){
-        alert("Некорpектные значения. Попробуйте ещё раз");
-        return;
-    }
     time = hour * 3600 + min * 60 + sec;
     let timerId = setTimeout( function () {
         document.body.style.backgroundImage = "url('js/pictures/background2.jpg')";
