@@ -13,7 +13,9 @@
     showMinCur.innerHTML = min;
     showSecCur.innerHTML = sec;
     document.body.append(showHourCur);
+    document.body.append(cln);
     document.body.append(showMinCur);
+    document.body.append(cln2); //я не знаю, как по-другому поставить второе двоеточие, тогда исчезает первое
     document.body.append(showSecCur);
     if (!checkCorrect(sec) || !checkCorrect(min) || !checkCorrect(sec)){
         alert("Некорpектные значения. Попробуйте ещё раз");
@@ -75,6 +77,10 @@ let showMinCur = document.createElement('showMinCur');
 showMinCur.className = "show";
 let showSecCur = document.createElement('showSecCur');
 showSecCur.className = "show";
+let cln = document.createElement('cln');
+cln.className = "show";
+cln.innerHTML = ":";
+let cln2 = cln.cloneNode(true);
 let audio = new Audio();
 let startButton = document.getElementById("start");
 startButton.onclick = timer;
