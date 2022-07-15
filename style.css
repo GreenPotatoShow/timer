@@ -66,6 +66,7 @@ input[type='radio']:checked:after {
 		url(js/digital-7.ttf); 
 }
 .show{
+    display: inline-block;
     margin-top: 50px;
     font-family: Clock;
     font-size: 100pt;
