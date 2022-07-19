@@ -1,9 +1,9 @@
  const timer = () => {
     if (document.getElementById('sound1').checked){
-        audio.src = 'js/audio/voice.mp3';
+        audio.src = 'applications/audio/voice.mp3';
     }
     else{
-        audio.src = 'js/audio/alarm.mp3';
+        audio.src = 'applications/audio/alarm.mp3';
     }
     let sec, min, hour, time;
     sec = +document.getElementById('second').value;
@@ -23,7 +23,7 @@
     document.body.append(showSecCur);
     time = hour * 3600 + min * 60 + sec;
     let timerId = setTimeout( () => {
-        document.body.style.backgroundImage = 'url("js/pictures/background2.jpg")';
+        document.body.style.backgroundImage = 'url("applications/pictures/background2.jpg")';
         sound(audio);
     }, 1000 * time);
     stopButton.addEventListener('click', () => {

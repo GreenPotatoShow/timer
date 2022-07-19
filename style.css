@@ -14,7 +14,7 @@ span{
 }
 body{
     margin-top: 20px;
-    background-image: url(js/pictures/background.jpg);
+    background-image: url(applications/pictures/background.jpg);
     margin-left: 50px;
 }
 .input-text{
@@ -63,7 +63,7 @@ input[type='radio']:checked:after {
 @font-face {
 	font-family: 'Clock'; 
 	src: local('Clock'),
-		url(js/digital-7.ttf); 
+		url(applications/digital-7.ttf); 
 }
 .show{
     display: inline-block;
